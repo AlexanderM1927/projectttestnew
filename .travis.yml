@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - '12'
 script:
-  - npm run dev
+  - node index.js
 deploy:
   provider: heroku
   api_key: $APIKEYHEROKU
